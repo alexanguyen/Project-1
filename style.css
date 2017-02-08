@@ -1,0 +1,32 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Univers', sans-serif;
+}
+
+
+div.col-md-5 {
+  height: 200px;
+}
+
+div.header {
+  margin-top: 100px;
+  margin-left: -230px;
+}
+
+h1.first {
+  color: #fff;
+  font-style: italic;
+  font-weight: 100;
+  letter-spacing: 10px;
+}
+
+span.blk {
+  color: #000;
+}
+
+
+div.light {
+  background-image: url('images/IMG_8857.jpg');
+  background-position: right;
+}
