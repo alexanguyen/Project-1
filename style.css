@@ -14,11 +14,32 @@ div.header {
   margin-left: -230px;
 }
 
+/*
+div.sub {
+  margin-top: 100px;
+}
+*/
+
 h1.first {
   color: #fff;
   font-style: italic;
   font-weight: 100;
   letter-spacing: 10px;
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-style: italic;
+  font-weight: 100;
+  letter-spacing: 5px;
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-align: right;
 }
 
 span.blk {
@@ -29,4 +50,25 @@ span.blk {
 div.light {
   background-image: url('images/IMG_8857.jpg');
   background-position: right;
+}
+
+div.story {
+  margin-top: 100px;
+}
+
+div.bloo {
+  background-image: url('images/IMG_6442.jpg');
+  background-size: cover;
+  height: 600px;
+  background-position: center;
+}
+
+div.bloo2 {
+  background-image: url('images/IMG_6451.jpg');
+  width: 300px;
+  height: 300px;
+  background-size: 100%;
+  margin-top: -200px;
+  padding: 10px;
+  border: 1px solid;
 }
