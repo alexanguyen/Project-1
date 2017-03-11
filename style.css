@@ -4,11 +4,6 @@ body {
   font-family: 'Univers', sans-serif;
 }
 
-
-div.col-md-5 {
-  height: 200px;
-}
-
 div.header {
   margin-top: 100px;
   margin-left: -230px;
@@ -19,6 +14,7 @@ div.sub {
   margin-top: 100px;
 }
 */
+
 
 h1.first {
   color: #fff;
@@ -39,6 +35,17 @@ p {
   font-size: 1rem;
   font-weight: 100;
   letter-spacing: 2px;
+  margin-top: 30px;
+}
+
+ul, li {
+  font-size: 1rem;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-align: left;
+}
+
+.story1 p {
   text-align: right;
 }
 
@@ -50,25 +57,230 @@ span.blk {
 div.light {
   background-image: url('images/IMG_8857.jpg');
   background-position: right;
+  height: 200px;
 }
 
-div.story {
+div.story1 {
   margin-top: 100px;
 }
 
-div.bloo {
-  background-image: url('images/IMG_6442.jpg');
+div.story12 {
+  background-image: url('images/IMG_8401.jpg');
+  background-size: 100%;
+  height: 550px;
+  background-repeat: no-repeat;
+}
+
+div.story13 {
+  background-image: url('images/388125_CR_doorbb.jpg');
+  background-size: 90%;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: -210px;
+  border: 1px solid #a9d3e6;
+}
+
+div.story2 {
+  background-image: url('images/adn.jpg');
+  background-size: 100%;
+  margin-top: 200px;
+  height: 600px;
+}
+
+div.story21 {
+  background-image: url('images/namdaily1.jpg');
+  width: 300px;
+  height: 300px;
+  background-size: 200%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid #a9d3e6;
+  margin-top: -794px;
+}
+
+div.story2 p {
+  text-align: left;
+  margin-top: 200px;
+  margin-left: 40px;
+  padding-left: 20px;
+  border-left: 1px solid;
+}
+
+div.one {
+  background-image: url('images/IMG_8563.jpg');
+  height: 400px;
+  background-size: 100%;
+}
+div.two {
+  background-image: url('images/IMG_9101.jpg');
+  height: 400px;
+  background-size: 100%;
+}
+div.three {
+  background-image: url('images/IMG_9118.jpg');
+  height: 400px;
+  background-size: 100%;
+}
+
+div.story3 {
+  text-align: right;
+  padding-right: 20px;
+}
+
+div.spacer {
+  height: 100px;
+}
+
+div.blank {
+  width: 300px;
+  height: 300px;
+  border: 1px solid #a9d3e6;
+}
+div.story4 {
+  margin-top: -200px;
+  background-image: url('images/IMG_0002.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+div.story4text {
+  text-align: right;
+  margin-right: 15px;
+}
+
+div.story5 {
+  background-image: url('images/IMG_8967.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 500px;
+  margin-right: 50px;
+}
+
+div.blank2 {
+  width: 300px;
+  height: 300px;
+  border: 1px solid #a9d3e6;
+  margin-top: 100px;
+}
+div.story5text{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 300px;
+  text-align: center;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+div.story52 {
+  background-image: url('images/IMG_8857.jpg');
+  height: 300px;
+  background-size: 100%;
+  /** background-repeat: no-repeat; **/
+  margin-top: -65px;
+}
+
+div.story6 {
+  background-image: url('images/akpsi.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 600px;
+}
+
+div.story6 p {
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 50px;
+  padding-left: 20px;
+  border-left: 1px solid #000;
+}
+
+div.blank3 {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #a9d3e6;
+  margin-bottom: -140px;
+}
+
+div.story71 {
+  height: 500px;
+  background-image: url('images/IMG_8485.jpg');
+  background-size: 180%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+div.story72 {
+  padding: 50px;
+}
+
+div.story73 {
+  height: 500px;
+  background-image: url('images/124 copy.jpg');
+  background-size: 150%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.story8text p {
+  text-align: right;
+}
+
+div.story8text {
+  margin-top: 100px;
+}
+
+div.story8 {
+  background-image: url('images/IMG_0004.jpg');
   background-size: cover;
   height: 600px;
   background-position: center;
 }
 
-div.bloo2 {
-  background-image: url('images/IMG_6451.jpg');
+div.story82 {
+  background-image: url('images/IMG_0001.jpg');
+  width: 400px;
+  height: 400px;
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: -200px;
+  border: 1px solid #a9d3e6;
+}
+
+div.blank4 {
   width: 300px;
   height: 300px;
-  background-size: 100%;
+  border: 1px solid #a9d3e6;
+}
+div.story9 {
   margin-top: -200px;
-  padding: 10px;
-  border: 1px solid;
+  background-image: url('images/IMG_3109 copy.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+div.story9text {
+  margin-left: 15px;
+}
+
+div.story10 {
+  background-image: url('images/seoul.jpg');
+  height: 700px;
+  background-size: 100%;
+  background-position: 50% 88%;
+}
+div.story10text {
+  height: 45px;
+  margin-top: 620px;
+  margin-left: 15px;
+  border-left: 1px solid #fff;
+}
+
+div.story10text p{
+  padding-left: 20px;
+  padding-right: 20px;
+ color: #fff;
+
 }
